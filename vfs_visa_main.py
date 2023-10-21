@@ -358,7 +358,7 @@ def _send_message(_message,sub="DEFAULT"):
             ts = time.time()
             st = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
             message = "{} at {}".format(_message.text, st)
-            # send_mail(message + "_" + sub)
+            send_mail(message + "_" + sub)
             #send message by qcloud
             value1 = st.split()
             value2 = value1[1].split(":")
@@ -571,8 +571,6 @@ if __name__ == "__main__":
                 if (_send_message(_message,sub_category[i]) and info_state == "ON"):
                     input_info()
                     break
-            # if (len(_message.text) == 0):
-            #     _change_WiFi_email()
             web_driver.close()
             web_driver.quit()
             countdown(int(_interval))
