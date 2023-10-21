@@ -21,6 +21,6 @@ This code is written in *Python* based on the *selenium*. Its functions can be s
 ## LAST
 If you have the basic ability to ***debug code***, you can quickly use this code
 
-If you need anything, please contact ***hanjunjie0931@gmail.com***, I will provide help when I am free
+If you need anything, please contact ***saltycloud24@gmail.com***, I will provide help when I am free
 
 **Hope you can get your visa smoothly**
